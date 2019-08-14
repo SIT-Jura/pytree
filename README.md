@@ -9,10 +9,11 @@
 
 ## Installation on linux, with docker
 
-1. Clone this repository on your machine
+1. Clone this repository on your machine in the private folder
 2. Build with docker
 
 ```
+cd /var/www/vhosts/sitj/private
 git clone git@github.com:SIT-Jura/pytree.git
 cd pytree
 docker build -t jura_pytree .
