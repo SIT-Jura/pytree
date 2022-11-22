@@ -91,3 +91,9 @@ extract_profile data/aerial/2022/jura_couleur_2022/metadata.json -o "stdout" --c
 ```
 
 https://geo-test.jura.ch/pytree
+
+## Build
+
+`docker-compose build`
+
+`docker-compose up -d`
