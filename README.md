@@ -87,5 +87,7 @@ docker exec -it pytree_api_1 bash
 Then execute `extract_profile`:
 
 ```
-extract_profile data/processed/metadata.json -o "stdout" --coordinates "{2525528.12,1185781.87},{2525989.37,1185541.87}" --width 10 --min-level 0 --max-level 5 > data/output/test.las
+extract_profile data/aerial/2022/jura_couleur_2022/metadata.json -o "stdout" --coordinates "{2566539,1233449},{2567014,1233373}" --width 10 --min-level 0 --max-level 5 > data/output/test.las
 ```
+
+https://geo-test.jura.ch/pytree
