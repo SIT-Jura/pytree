@@ -5,7 +5,7 @@ vars:
   cpotree_executable: extract_profile
   # Available point clouds. NOTE: pointclouds CRS must be the same as the APP, reprojection is not implemented!
   pointclouds:
-    Jura2022: ./data/aerial/2022/jura_couleur_2022/metadata.json
+    Jura2022: ./data/aerial/2022/jura_couleur_2020_2022/metadata.json
   # point cloud to use in profile
   default_point_cloud: Jura2022
   # default profile width
@@ -104,8 +104,8 @@ vars:
       visible: 1
     18:
       color: 120, 120, 250
-      name: Hihh noise
-      value: Hihh noise
+      name: High noise
+      value: High noise
       visible: 1
     64:
       color: 0, 120, 120
