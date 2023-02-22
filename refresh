@@ -1,0 +1,21 @@
+#!/bin/bash
+date
+echo "--------------------------------------------------------------------"
+
+#stop and down docket instance
+echo "docker-compose down"
+docker-compose down
+echo ""
+
+#build
+echo docker-compose build
+docker-compose build
+echo ""
+
+#build
+echo docker-compose up -d
+docker-compose up -d
+echo ""
+
+
+date
