@@ -7,6 +7,10 @@ echo "docker-compose down"
 docker-compose down
 echo ""
 
+#build sint pytree image
+docker build -t sitn/pytree:1.0.5
+echo ""
+
 #build
 echo docker-compose build
 docker-compose build
