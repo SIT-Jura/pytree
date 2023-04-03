@@ -152,13 +152,13 @@ vars:
       value: INTENSITY
       element: 1
       bytes: 2
-      visible: 1
+      visible: 0
     RGB:
       name: Couleur
       value: RGB # use COLOR_PACKED as value here for SITN data sets
       elements: 4
       bytes: 3
-      visible: 1
+      visible: 0
     CLASSIFICATION:
       name: Classification
       value: CLASSIFICATION
@@ -170,19 +170,19 @@ vars:
       value: POSITION_CARTESIAN
       elements: 3
       bytes: 12
-      visible: 1
+      visible: 0
     POSITION_PROJECTED_PROFILE:
       name: Position-projected
       value: POSITION_PROJECTED_PROFILE
       elements: 2
       bytes: 8
-      visible: 1
+      visible: 0
     COLOR_PACKED:
       name: Couleur
       value: COLOR_PACKED
       elements: 4
       bytes: 4
-      visible: 1
+      visible: 0
 
   # here you can define as many steps as you like
   max_levels:

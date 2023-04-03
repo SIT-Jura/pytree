@@ -152,7 +152,7 @@ vars:
       value: INTENSITY
       element: 1
       bytes: 2
-      visible: 1
+      visible: 0
     RGB:
       name: Couleur
       value: RGB # use COLOR_PACKED as value here for SITN data sets
@@ -182,7 +182,7 @@ vars:
       value: COLOR_PACKED
       elements: 4
       bytes: 4
-      visible: 1
+      visible: 0
 
   # here you can define as many steps as you like
   max_levels:
