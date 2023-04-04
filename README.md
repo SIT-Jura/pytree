@@ -113,6 +113,12 @@ https://geo-test.jura.ch/pytree
 or
 https://geo.jura.ch/pytree
 
+Test :
+
+geo-test : https://geo-test.jura.ch/pytree/profile/get?minLOD=0&maxLOD=6&width=6&coordinates={2588693,1245079},{2588781,1245113}&pointCloud=Jura2022
+
+prod : https://geo.jura.ch/pytree/profile/get?minLOD=0&maxLOD=6&width=6&coordinates={2588693,1245079},{2588781,1245113}&pointCloud=Jura2022
+
 ## Build
 
 `docker-compose build`
