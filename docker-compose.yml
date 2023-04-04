@@ -4,7 +4,7 @@ services:
   api:
     image: sitn/pytree:1.0.5
     environment:
-      DEPLOY_ENV: ${DEPLOY_ENV:-DEV}
+      DEPLOY_ENV: ${DEPLOY_ENV:-PROD}
     restart: unless-stopped
     command: /app/start_server.sh
     volumes:

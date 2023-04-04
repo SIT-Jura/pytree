@@ -1,5 +1,5 @@
 vars:
-  debug: true
+  debug: false
   gmf_url: ""
   # path to cpotree exectuable
   cpotree_executable: extract_profile
