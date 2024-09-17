@@ -3,8 +3,8 @@ date
 echo "--------------------------------------------------------------------"
 
 #stop and down docket instance
-echo "docker-compose down"
-docker-compose down
+echo "docker compose down"
+docker compose down
 echo ""
 
 #build sint pytree image
@@ -12,13 +12,13 @@ docker build -t sitn/pytree:1.0.5
 echo ""
 
 #build
-echo docker-compose build
-docker-compose build
+echo docker compose build
+docker compose build
 echo ""
 
 #build
-echo docker-compose up -d
-docker-compose up -d
+echo docker compose up -d
+docker compose up -d
 echo ""
 
 
