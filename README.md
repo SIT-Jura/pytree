@@ -17,6 +17,7 @@ Clone this repository on your machine.
    cd /var/www/vhosts/sitj/private
    git clone git@github.com:SIT-Jura/pytree.git
    cd pytree
+   cp pytre_[stage][prod].yml pytree.yml (en fonction de la machine)
 ```
 
 You will need to download binaries for [CPotree](https://github.com/potree/CPotree/releases/tag/1.0), extract its release files (namely `extract_profile` and `liblaszip.so`) into `./bin` and make the file `extract_profile` actually executable:
