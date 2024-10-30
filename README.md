@@ -109,13 +109,13 @@ Then execute `extract_profile`:
 extract_profile data/aerial/2022/jura_couleur_2022/metadata.json -o "stdout" --coordinates "{2566539,1233449},{2567014,1233373}" --width 10 --min-level 0 --max-level 5 > data/output/test.las
 ```
 
-https://geo-test.jura.ch/pytree
+https://geo-t.jura.ch/pytree
 or
 https://geo.jura.ch/pytree
 
 Test :
 
-geo-test : https://geo-test.jura.ch/pytree/profile/get?minLOD=0&maxLOD=6&width=6&coordinates={2588693,1245079},{2588781,1245113}&pointCloud=Jura2022
+geo-test : https://geo-t.jura.ch/pytree/profile/get?minLOD=0&maxLOD=6&width=6&coordinates={2588693,1245079},{2588781,1245113}&pointCloud=Jura2022
 
 prod : https://geo.jura.ch/pytree/profile/get?minLOD=0&maxLOD=6&width=6&coordinates={2588693,1245079},{2588781,1245113}&pointCloud=Jura2022
 
